@@ -6,7 +6,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context=".StopwatchActivity" >
+    tools:context=".MainActivity" >
 
     <TextView
         android:id="@+id/time_view"

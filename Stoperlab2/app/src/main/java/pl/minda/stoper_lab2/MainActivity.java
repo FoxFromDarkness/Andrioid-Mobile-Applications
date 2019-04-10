@@ -9,10 +9,8 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
-    // Liczba sekund wyświetlana przez stoper
     private int seconds = 0;
 
-    // Czy stoper działa?
     private boolean running;
     private boolean wasRunning;
     @Override
@@ -47,22 +45,18 @@ public class MainActivity extends Activity {
         savedInstanceState.putBoolean("wasRunning", wasRunning);
     }
 
-    // Metoda uruchamia stoper po kliknięciu przycisku Start
     public void onClickStart(View view) {
         running = true;
     }
 
-    // Metoda zatrzymuje stoper po kliknięciu przycisku Stop
     public void onClickStop(View view) {
         running = false;
     }
 
-    // Metoda zeruje stoper po kliknięciu przycisku Kasuj
     public void onClickReset(View view) {
         running = false;
         seconds = 0;
     }
-    // Wyświetla w stoperze liczbę sekund
     private void runTimer() {
         final TextView timeView = (TextView)findViewById(R.id.time_view);
         final Handler handler = new Handler();
