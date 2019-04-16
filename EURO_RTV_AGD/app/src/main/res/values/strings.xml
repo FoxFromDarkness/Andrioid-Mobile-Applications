@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EURO_RTV_AGD</string>
+
+    <string name="vc_samsung_opis">Specjalnie dla fanów sagi Gwiezdne Wojny dostępny w limitowanej edycji POWERbot™.</string>
+    <string name="vc_philips_opis">Odkurzacz marki Philips Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="vc_zelmer_opis">Odkurzacz marki Zelmer Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+    <string name="wm_samsung_opis">Pralka marki Samsung Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="wm_philips_opis">Pralka marki Philips Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="wm_zelmer_opis">Pralka marki Zelmer Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+    <string name="f_samsung_opis">Lodówka marki Samsung Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="f_philips_opis">Lodówka marki Philips Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="f_zelmer_opis">Lodówka marki Zelmer Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+    <string name="action_info">infomacje</string>
+    <string name="app_opis">Aplikacja przedstawia symulacje Aplikacji RTV EURO AGD</string>
+
+
+    <string-array name="options">
+        <item>Lodówka</item>
+        <item>Odkurzacz</item>
+        <item>Pralka</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+</resources>
