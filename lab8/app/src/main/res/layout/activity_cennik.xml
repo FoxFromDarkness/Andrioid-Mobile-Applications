@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cennikView"
+    tools:context=".Cennik">
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:entries="@array/list" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="425dp"
+        android:text="Cena:" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sprawdź cene"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="350dp"
+    />
+
+    <RadioGroup
+        android:id="@+id/myRadioGroup"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp">
+
+        <RadioButton
+            android:id="@+id/maly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/mały" />
+
+        <RadioButton
+            android:id="@+id/duzy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/duży" />
+
+        <RadioButton
+            android:id="@+id/mega"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mega" />
+
+    </RadioGroup>
+
+</FrameLayout>

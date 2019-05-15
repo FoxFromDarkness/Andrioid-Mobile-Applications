@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">lab3-cennikKina</string>
+
+    <string-array name="list">
+        <item>Popcorn</item>
+        <item>Napój</item>
+        <item>Nachos</item>
+    </string-array>
+
+
+    <string name="scrolView">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tortor leo, feugiat finibus blandit id, feugiat eu orci. Aliquam lacinia leo sed ornare hendrerit. Ut lobortis blandit lorem at scelerisque. Ut et purus dictum, luctus lectus nec, venenatis est. Curabitur ac porttitor velit. Aliquam tortor enim, tincidunt vel lorem quis, cursus imperdiet risus. Quisque mattis est sit amet volutpat euismod. Curabitur ac dui velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vel vulputate libero. Praesent quis magna pulvinar nunc tristique maximus. Etiam rhoncus lobortis massa, et congue mauris eleifend lacinia. Duis et ante bibendum, ultrices tellus et, consequat ligula. Suspendisse vel lacinia nisi. Praesent dui nulla, aliquet non elit et, vestibulum lobortis orci. Nulla a sem nibh. </string>
+
+    <string name="mały">Mały</string>
+    <string name="duży">Duży</string>
+    <string name="mega">Mega</string>
+
+    <string name="małyPopconr">15,90zł</string>
+    <string name="dużyPopconr">17,90zł</string>
+    <string name="megaPopconr">19,90zł</string>
+
+    <string name="małeNachos">15,90zł</string>
+    <string name="dużeNachos">17,90zł</string>
+    <string name="megaNachos">19,90zł</string>
+
+    <string name="małyNapój">9,90zł</string>
+    <string name="dużyNapój">10,90zł</string>
+    <string name="megaNapój">11,90zł</string>
+
+</resources>
